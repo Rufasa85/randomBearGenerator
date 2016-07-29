@@ -6,37 +6,45 @@ $(document).ready(function(){
         console.log(bearNumber);
         $('#bearDiv').show();
         if(bearNumber === 69) {
-            $('#bearName').html('San Francisco Bear')
+            $('#bearName').html('San Francisco Bear');
         }
         else if(bearNumber === 666) {
-            $('#bearName').html('Gare-Bear, Jewel of the Met Market Deli')
+            $('#bearName').html('Gare-Bear, Jewel of the Met Market Deli');
         }
         else if(bearNumber === 1) {
-            $('#bearName').html('Water Bear, Tardigrades')
+            $('#bearName').html('Water Bear, Tardigrades');
         }
         else if (bearNumber < 125) {
-            $('#bearName').html('American Black Bear')
+            $('#bearPic').attr('src', 'assets/images/AmericanBlackBear.jpg');
+            $('#bearName').html('American Black Bear');
         }
         else if (bearNumber < 250) {
-            $('#bearName').html('Asiatic Black Bear')
+            $('#bearPic').attr('src', 'assets/images/AsiaticBlackBear.jpg');
+            $('#bearName').html('Asiatic Black Bear');
         }
         else if (bearNumber < 375) {
-            $('#bearName').html('Brown Bear')
+            $('#bearPic').attr('src', 'assets/images/BrownBear.jpg');
+            $('#bearName').html('Brown Bear');
         }
         else if (bearNumber < 500) {
-            $('#bearName').html('Polar Bear')
+            $('#bearPic').attr('src', 'assets/images/PolarBear.jpg');
+            $('#bearName').html('Polar Bear');
         }
         else if (bearNumber < 625) {
-            $('#bearName').html('Sloth Bear')
+            $('#bearPic').attr('src', 'assets/images/SlothBear.jpg');
+            $('#bearName').html('Sloth Bear');
         }
         else if (bearNumber < 750) {
-            $('#bearName').html('Sun Bear')
+            $('#bearPic').attr('src', 'assets/images/SunBear.jpg');
+            $('#bearName').html('Sun Bear');
         }
         else if (bearNumber < 875) {
-            $('#bearName').html('Giant Panda Bear')
+            $('#bearPic').attr('src', 'assets/images/GiantPanda.jpg');
+            $('#bearName').html('Giant Panda Bear');
         }
         else if (bearNumber < 1000) {
-            $('#bearName').html('Asiatic Black Bear')
+            $('#bearPic').attr('src', 'assets/images/SpectacledBear.jpg');
+            $('#bearName').html('Spectacled Bear');
         }
 
     })
